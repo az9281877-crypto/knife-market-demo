@@ -10,7 +10,7 @@
 		},
 		{
 			"step": "unzip",
-			"zipFile": { "resource": "url", "url": "https://az9281877-crypto.github.io/knife-market-demo/kit.zip" },
+			"zipFile": { "resource": "url", "url": "https://az9281877-crypto.github.io/knife-market-demo/kit-2.zip" },
 			"extractToPath": "/wordpress"
 		},
 		{

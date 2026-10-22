@@ -17,6 +17,8 @@
 	li { margin-bottom: 6px; }
 	a.btn { display: inline-block; background: linear-gradient(135deg, #087f86, #34aaa6); color: #fff; text-decoration: none; font-weight: 700; padding: 16px 30px; border-radius: 999px; }
 	a.btn:hover { filter: brightness(1.08); }
+	a.btn.alt { background: #231f20; margin-top: 10px; }
+	.btn-row { display: block; }
 	small { display: block; margin-top: 18px; color: #76767b; }
 </style>
 </head>
@@ -26,13 +28,13 @@
 	<h1>Демо-версия сайта-магазина</h1>
 	<p>Это пробная версия сайта. Можно смотреть магазин как покупатель и заходить в админку, как будет делать владелец.</p>
 	<ul>
-		<li><strong>Сайт</strong> откроется сам, вход в админку выполнится автоматически.</li>
-		<li><strong>Админка:</strong> пункт «Консоль» в самой верхней чёрной полосе. Там подсказка «Что попробовать».</li>
+		<li><strong>Вход делать не нужно</strong>: и магазин, и админка откроются сразу, вы уже внутри.</li>
+		<li><strong>Админка</strong> открывается кнопкой ниже, а из магазина её можно открыть словом «Консоль» в самой верхней чёрной полосе. На первой странице админки подсказка «Что попробовать».</li>
 		<li><strong>Менять можно что угодно</strong>: фото, цены, товары. Правки остаются только в вашем браузере и на настоящий сайт не попадут. Чтобы вернуть всё как было, откройте эту страницу заново и нажмите кнопку.</li>
 		<li>Заказы и заявки здесь тестовые, никуда не отправляются.</li>
 	</ul>
-	<a class="btn" href="https://playground.wordpress.net/?blueprint-url=https://az9281877-crypto.github.io/knife-market-demo/blueprint.json">Открыть демо-магазин</a>
-	<small>Первая загрузка занимает около минуты: сайт собирается прямо в вашем браузере. Работает и на телефоне, и на компьютере.</small>
+	<a class="btn" href="https://playground.wordpress.net/?blueprint-url=https://az9281877-crypto.github.io/knife-market-demo/blueprint-2.json">Открыть магазин</a> <a class="btn alt" href="https://playground.wordpress.net/?blueprint-url=https://az9281877-crypto.github.io/knife-market-demo/blueprint-2.json__ADMIN_URL__url=/wp-admin/index.php">Открыть админку</a>
+	<small>Если открыть и магазин, и админку, это будут две отдельные копии, правки из одной в другой не попадут. Удобнее одна копия: откройте админку, а на магазин переходите оттуда кнопкой «Посмотреть сайт».<br><br>Первая загрузка занимает около минуты: сайт собирается прямо в вашем браузере. Работает и на телефоне, и на компьютере.</small>
 </main>
 </body>
 </html>
