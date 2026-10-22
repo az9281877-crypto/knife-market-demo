@@ -1,0 +1,26 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"preferredVersions": { "php": "8.3", "wp": "latest" },
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": { "resource": "wordpress.org/plugins", "slug": "woocommerce" },
+			"options": { "activate": true }
+		},
+		{
+			"step": "unzip",
+			"zipFile": { "resource": "url", "url": "https://az9281877-crypto.github.io/knife-market-demo/kit-4.zip" },
+			"extractToPath": "/wordpress"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/demo-seed.php';"
+		},
+		{
+			"step": "login",
+			"username": "manager",
+			"password": "demo-manager"
+		}
+	]
+}
